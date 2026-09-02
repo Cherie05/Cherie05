@@ -1,651 +1,110 @@
-<svg 
-  xmlns="http://www.w3.org/2000/svg" 
-  viewBox="0 0 800 390" 
-  width="800" 
-  height="390" 
-  class="root-card"
-  role="img" 
-  aria-label="GitHub Profile Telemetry for Cherie05"
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 840 280"
+  width="840"
+  height="280"
+  role="img"
+  aria-label="Arun Vpp — Product Engineering & Systems Matrix"
 >
   <defs>
-    <!-- Background Grid Pattern -->
-    <pattern id="telemetry-grid-pattern" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M 24 0 L 0 0 0 24" fill="none" class="grid-lines" />
-    </pattern>
+    <linearGradient id="boho-card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#241d18" />
+      <stop offset="60%" stop-color="#1a1512" />
+      <stop offset="100%" stop-color="#14100d" />
+    </linearGradient>
 
-    <!-- Glowing Beacon Filter -->
-    <filter id="beacon-glow-filter" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="2.5" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
+    <linearGradient id="boho-terracotta" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d87a5c" />
+      <stop offset="50%" stop-color="#c86446" />
+      <stop offset="100%" stop-color="#a84d32" />
+    </linearGradient>
+
+    <linearGradient id="boho-sage" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#88a885" />
+      <stop offset="100%" stop-color="#6f8b6d" />
+    </linearGradient>
 
     <style>
-      
-    :root {
-      --bg: #1a1512;
-      --card-bg: #241d18;
-      --card-border: rgba(200, 100, 70, 0.5);
-      --accent-primary: #c86446;
-      --accent-secondary: #6f8b6d;
-      --accent-tertiary: #e08e36;
-      --accent-success: #2d5438;
-      --accent-warning: #d69e38;
-      --text-primary: #f6efe3;
-      --text-secondary: #d8b998;
-      --text-muted: #8c7767;
-      --glow-color: #c86446;
-      --grid-line: rgba(200, 100, 70, 0.08);
-      --bar-track: #332720;
-      --beacon-glow: #e08e36;
-      --badge-bg: rgba(200, 100, 70, 0.12);
-      --badge-text: #e08e36;
-    }
-
-    
-
-    /* Core Card Styling */
-    .root-card {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    }
-    
-    .mono {
-      font-family: "JetBrains Mono", ui-monospace, "Fira Code", SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-    }
-
-    .main-canvas-bg {
-      fill: var(--bg);
-      stroke: var(--card-border);
-      stroke-width: 1.5;
-    }
-
-    .grid-lines {
-      stroke: var(--grid-line);
-      stroke-width: 1;
-    }
-
-    /* Header Styling */
-    .header-meta-tag {
-      font-family: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, monospace;
-      font-size: 10px;
-      font-weight: 700;
-      letter-spacing: 1.2px;
-      fill: var(--text-muted);
-    }
-
-    .header-name {
-      font-size: 19px;
-      font-weight: 800;
-      fill: var(--text-primary);
-      letter-spacing: -0.2px;
-    }
-
-    .header-handle {
-      font-family: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, monospace;
-      font-size: 13px;
-      font-weight: 600;
-      fill: var(--text-secondary);
-    }
-
-    .header-role {
-      font-family: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, monospace;
-      font-size: 11px;
-      font-weight: 500;
-      fill: var(--text-muted);
-      letter-spacing: 0.2px;
-    }
-
-    .icon-box-bg {
-      fill: var(--card-bg);
-    }
-
-    .icon-box-border {
-      fill: none;
-      stroke: var(--card-border);
-      stroke-width: 1.2;
-    }
-
-    .icon-glyph-chevron {
-      color: var(--accent-primary);
-    }
-
-    .icon-glyph-cursor {
-      color: var(--accent-secondary);
-      animation: cursorBlink 1.4s ease-in-out infinite;
-    }
-
-    /* Beacon Status Styling */
-    .beacon-pill-bg {
-      fill: var(--card-bg);
-    }
-
-    .beacon-pill-border {
-      fill: none;
-      stroke: var(--card-border);
-      stroke-width: 1;
-    }
-
-    .beacon-text {
-      font-family: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, monospace;
-      font-size: 9.5px;
-      font-weight: 700;
-      letter-spacing: 0.8px;
-      fill: var(--text-primary);
-    }
-
-    .beacon-core {
-      fill: var(--beacon-glow);
-    }
-
-    .beacon-wave {
-      fill: none;
-      stroke: var(--beacon-glow);
-      stroke-width: 1.5;
-      transform-origin: 14px 13px;
-    }
-
-    .beacon-wave-1 {
-      animation: beaconPulse 2.4s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
-    }
-
-    .beacon-wave-2 {
-      animation: beaconPulse 2.4s cubic-bezier(0.215, 0.61, 0.355, 1) infinite 1.2s;
-    }
-
-    /* Metric Quadrants */
-    .metric-card-bg {
-      fill: var(--card-bg);
-    }
-
-    .metric-card-border {
-      fill: none;
-      stroke: var(--card-border);
-      stroke-width: 1;
-      transition: stroke 0.2s;
-    }
-
-    .metric-index-tag {
-      font-family: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, monospace;
-      font-size: 8.5px;
-      font-weight: 700;
-      letter-spacing: 1px;
-      fill: var(--text-muted);
-    }
-
-    .metric-label {
-      font-family: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, monospace;
-      font-size: 9.5px;
-      font-weight: 600;
-      letter-spacing: 0.6px;
-      fill: var(--text-secondary);
-    }
-
-    .metric-value {
-      font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
-      font-size: 18px;
-      font-weight: 800;
-      letter-spacing: -0.4px;
-    }
-
-    .metric-bar-track {
-      fill: var(--bar-track);
-    }
-
-    .metric-bar-fill {
-      animation: barGrow 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-    }
-
-    /* Section Subheadings */
-    .section-tag {
-      font-family: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, monospace;
-      font-size: 8.5px;
-      font-weight: 700;
-      letter-spacing: 1px;
-      fill: var(--text-muted);
-    }
-
-    /* Languages Bar */
-    .lang-bar-track {
-      fill: var(--bar-track);
-    }
-
-    .lang-pill-text {
-      font-family: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, monospace;
-      font-size: 10px;
-    }
-
-    .lang-name {
-      font-weight: 600;
-      fill: var(--text-primary);
-    }
-
-    .lang-pct {
-      font-weight: 500;
-      fill: var(--text-muted);
-    }
-
-    /* Skill Badges */
-    .skill-chip-bg {
-      fill: var(--badge-bg);
-    }
-
-    .skill-chip-border {
-      fill: none;
-      stroke: var(--card-border);
-      stroke-width: 1;
-    }
-
-    .skill-chip-dot {
-      fill: var(--accent-primary);
-    }
-
-    .skill-chip-text {
-      font-family: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, monospace;
-      font-size: 10px;
-      font-weight: 600;
-      fill: var(--text-primary);
-    }
-
-    /* System Activity Log */
-    .log-box-bg {
-      fill: var(--card-bg);
-    }
-
-    .log-box-border {
-      fill: none;
-      stroke: var(--card-border);
-      stroke-width: 1;
-    }
-
-    .log-prefix {
-      font-family: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, monospace;
-      font-size: 10.5px;
-      font-weight: 800;
-      fill: var(--accent-tertiary);
-      letter-spacing: 0.5px;
-    }
-
-    .log-content {
-      font-family: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, monospace;
-      font-size: 10.5px;
-    }
-
-    .log-repo {
-      font-weight: 700;
-      fill: var(--text-primary);
-    }
-
-    .log-dot {
-      fill: var(--text-muted);
-    }
-
-    .log-desc {
-      font-weight: 500;
-      fill: var(--text-secondary);
-    }
-
-    .log-timestamp {
-      font-family: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, monospace;
-      font-size: 9.5px;
-      font-weight: 600;
-      fill: var(--text-muted);
-    }
-
-    /* Keyframe Animations */
-    @keyframes beaconPulse {
-      0% {
-        r: 3.5px;
-        opacity: 0.9;
-        stroke-width: 1.5px;
+      .boho-font-title {
+        font-family: 'Playfair Display', Georgia, serif;
+        font-weight: 700;
+        fill: #f6efe3;
       }
-      100% {
-        r: 12px;
-        opacity: 0;
-        stroke-width: 0.5px;
+      .boho-font-mono {
+        font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
       }
-    }
-
-    @keyframes cursorBlink {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0; }
-    }
-
-    @keyframes barGrow {
-      from { transform: scaleX(0); }
-      to { transform: scaleX(1); }
-    }
-  
+      .boho-font-sans {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      }
+      @keyframes pulse-sage {
+        0%, 100% { opacity: 1; r: 4.5; }
+        50% { opacity: 0.4; r: 6.5; }
+      }
+      .beacon-dot {
+        animation: pulse-sage 2.5s infinite ease-in-out;
+      }
     </style>
   </defs>
 
-  <!-- Base Canvas Background -->
-  <rect x="1" y="1" width="798" height="388" rx="14" class="main-canvas-bg" />
-  
-  <!-- Subtle Background Grid Accent -->
-  <rect x="2" y="2" width="796" height="386" rx="13" fill="url(#telemetry-grid-pattern)" opacity="0.8" />
+  <!-- Card Outer Border & Canvas -->
+  <rect x="1" y="1" width="838" height="278" rx="14" fill="url(#boho-card-bg)" stroke="#c86446" stroke-width="1.6" stroke-opacity="0.6" />
 
-  <!-- 1. Header Bar with Beacon -->
-  
-    <g class="header-section" transform="translate(32, 28)">
-      <!-- Terminal / Octocat System Icon -->
-      <g class="header-icon" transform="translate(0, 2)">
-        <rect x="0" y="0" width="44" height="44" rx="10" class="icon-box-bg" />
-        <rect x="0" y="0" width="44" height="44" rx="10" class="icon-box-border" />
-        <!-- Terminal HUD Icon Glyphs -->
-        <path d="M12 16L18 22L12 28" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="icon-glyph-chevron"/>
-        <line x1="22" y1="28" x2="32" y2="28" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" class="icon-glyph-cursor"/>
-      </g>
+  <!-- Subtle Inner Stitch Rim -->
+  <rect x="8" y="8" width="824" height="264" rx="10" fill="none" stroke="#6f8b6d" stroke-width="0.8" stroke-dasharray="4,4" stroke-opacity="0.35" />
 
-      <!-- Identity Metadata -->
-      <g transform="translate(56, 0)">
-        <!-- Node Protocol Meta -->
-        <text x="0" y="12" class="header-meta-tag">SYS.TELEMETRY // ID: CHERIE05-847</text>
-        
-        <!-- Display Name & Handle -->
-        <text x="0" y="32" class="header-name">CHERIE05 (Core System)</text>
-        <text x="298" y="32" class="header-handle">@Cherie05</text>
+  <!-- HEADER BAR -->
+  <!-- Status Badge (Top Left) -->
+  <rect x="26" y="24" width="232" height="24" rx="12" fill="#2d5438" fill-opacity="0.25" stroke="#6f8b6d" stroke-width="1" />
+  <circle cx="40" cy="36" r="4.5" fill="#6f8b6d" class="beacon-dot" />
+  <circle cx="40" cy="36" r="2.5" fill="#a4c6a1" />
+  <text x="52" y="40" class="boho-font-mono" font-size="10" font-weight="700" fill="#a4c6a1" letter-spacing="1">ACTIVE · PRODUCT ENGINEER</text>
 
-        <!-- Role / Specialization Subtitle -->
-        <text x="0" y="48" class="header-role">Software Systems Architect</text>
-      </g>
+  <!-- Profile Handle & Location (Top Right) -->
+  <text x="814" y="40" text-anchor="end" class="boho-font-mono" font-size="11" fill="#d8b998">
+    github.com/<tspan fill="#f6efe3" font-weight="700">Cherie05</tspan> &#160;•&#160; 29 PUBLIC REPOS
+  </text>
 
-      <!-- Animated Status Beacon Pill (Top Right) -->
-      
-    <g class="beacon-group" transform="translate(516, 6)">
-      <!-- Outer Beacon Ring Container -->
-      <rect x="0" y="0" width="220" height="26" rx="13" class="beacon-pill-bg" />
-      <rect x="0" y="0" width="220" height="26" rx="13" class="beacon-pill-border" />
-      
-      <!-- Pulsing Beacon Waves -->
-      <circle cx="14" cy="13" r="4" class="beacon-wave beacon-wave-1" />
-      <circle cx="14" cy="13" r="4" class="beacon-wave beacon-wave-2" />
-      
-      <!-- Central Glowing Core Beacon Dot -->
-      <circle cx="14" cy="13" r="3.5" class="beacon-core" />
-      
-      <!-- Beacon Monospace Status Text -->
-      <text x="26" y="16.5" class="beacon-text">ONLINE | SYSTEMS NOMINAL</text>
-    </g>
-  
-    </g>
-  
+  <!-- Title & Primary Role -->
+  <text x="26" y="78" class="boho-font-title" font-size="20">ARUN VPP</text>
+  <text x="142" y="77" class="boho-font-sans" font-size="12" font-weight="600" fill="#e08e36" letter-spacing="0.5">SYSTEMS ARCHITECT &amp; PRODUCT ENGINEER</text>
+  <text x="26" y="98" class="boho-font-sans" font-size="11.5" fill="#d8b998" opacity="0.9">
+    Architecting end-to-end products: scalable web architectures, developer tooling, sovereign AI, and native mobile engines.
+  </text>
 
-  <!-- 2. Core 4-Quadrant Telemetry Grid -->
-  
-    <g class="telemetry-grid" transform="translate(32, 92)">
-      
-        <g class="metric-quadrant quadrant-01" transform="translate(0, 0)">
-          <!-- Glass Card Background -->
-          <rect x="0" y="0" width="175" height="84" rx="10" class="metric-card-bg" />
-          <rect x="0" y="0" width="175" height="84" rx="10" class="metric-card-border" />
-          
-          <!-- Top Row: Index Tag & Mini Icon -->
-          <text x="14" y="20" class="metric-index-tag">[METRIC.01]</text>
-          
-          <!-- Metric Label -->
-          <text x="14" y="34" class="metric-label">TOTAL COMMITS</text>
-          
-          <!-- Metric Large Value -->
-          <text x="14" y="58" class="metric-value" style="fill: var(--accent-primary);">2,847</text>
-          
-          <!-- Progress Bar Track -->
-          <rect x="14" y="68" width="147" height="4" rx="2" class="metric-bar-track" />
-          <rect x="14" y="68" width="140" height="4" rx="2" class="metric-bar-fill" style="fill: var(--accent-primary);" />
-        </g>
-      
+  <!-- DIVIDER LINE -->
+  <line x1="26" y1="112" x2="814" y2="112" stroke="#c86446" stroke-width="1" stroke-opacity="0.3" />
 
-        <g class="metric-quadrant quadrant-02" transform="translate(187, 0)">
-          <!-- Glass Card Background -->
-          <rect x="0" y="0" width="175" height="84" rx="10" class="metric-card-bg" />
-          <rect x="0" y="0" width="175" height="84" rx="10" class="metric-card-border" />
-          
-          <!-- Top Row: Index Tag & Mini Icon -->
-          <text x="14" y="20" class="metric-index-tag">[METRIC.02]</text>
-          
-          <!-- Metric Label -->
-          <text x="14" y="34" class="metric-label">STARS EARNED</text>
-          
-          <!-- Metric Large Value -->
-          <text x="14" y="58" class="metric-value" style="fill: var(--accent-warning);">1.4k</text>
-          
-          <!-- Progress Bar Track -->
-          <rect x="14" y="68" width="147" height="4" rx="2" class="metric-bar-track" />
-          <rect x="14" y="68" width="139" height="4" rx="2" class="metric-bar-fill" style="fill: var(--accent-warning);" />
-        </g>
-      
+  <!-- THREE DOMAIN COLUMNS -->
+  <!-- Column 1: Websites & SaaS Platforms -->
+  <rect x="26" y="124" width="250" height="96" rx="8" fill="#1e1814" stroke="#c86446" stroke-width="0.8" stroke-opacity="0.4" />
+  <circle cx="44" cy="142" r="3" fill="#c86446" />
+  <text x="54" y="146" class="boho-font-mono" font-size="11" font-weight="700" fill="#e08e36">WEBSITES &amp; SAAS</text>
+  <text x="44" y="166" class="boho-font-sans" font-size="10.5" fill="#f6efe3" font-weight="500">Next.js • React • Node.js • Elixir</text>
+  <text x="44" y="184" class="boho-font-sans" font-size="10" fill="#d8b998" opacity="0.85">PostgreSQL, Redis caching, real-time</text>
+  <text x="44" y="199" class="boho-font-sans" font-size="10" fill="#d8b998" opacity="0.85">Phoenix LiveView websockets &amp; APIs</text>
 
-        <g class="metric-quadrant quadrant-03" transform="translate(374, 0)">
-          <!-- Glass Card Background -->
-          <rect x="0" y="0" width="175" height="84" rx="10" class="metric-card-bg" />
-          <rect x="0" y="0" width="175" height="84" rx="10" class="metric-card-border" />
-          
-          <!-- Top Row: Index Tag & Mini Icon -->
-          <text x="14" y="20" class="metric-index-tag">[METRIC.03]</text>
-          
-          <!-- Metric Label -->
-          <text x="14" y="34" class="metric-label">REPOSITORIES</text>
-          
-          <!-- Metric Large Value -->
-          <text x="14" y="58" class="metric-value" style="fill: var(--accent-secondary);">48</text>
-          
-          <!-- Progress Bar Track -->
-          <rect x="14" y="68" width="147" height="4" rx="2" class="metric-bar-track" />
-          <rect x="14" y="68" width="118" height="4" rx="2" class="metric-bar-fill" style="fill: var(--accent-secondary);" />
-        </g>
-      
+  <!-- Column 2: Developer Tools & Local AI -->
+  <rect x="295" y="124" width="250" height="96" rx="8" fill="#1e1814" stroke="#6f8b6d" stroke-width="0.8" stroke-opacity="0.4" />
+  <circle cx="313" cy="142" r="3" fill="#6f8b6d" />
+  <text x="323" y="146" class="boho-font-mono" font-size="11" font-weight="700" fill="#88a885">TOOLS &amp; LOCAL AI</text>
+  <text x="313" y="166" class="boho-font-sans" font-size="10.5" fill="#f6efe3" font-weight="500">Rust • TypeScript • ONNX • Ollama</text>
+  <text x="313" y="184" class="boho-font-sans" font-size="10" fill="#d8b998" opacity="0.85">Noise-free CPU illumination (interflect),</text>
+  <text x="313" y="199" class="boho-font-sans" font-size="10" fill="#d8b998" opacity="0.85">local neural IDE kernels &amp; visual looms</text>
 
-        <g class="metric-quadrant quadrant-04" transform="translate(561, 0)">
-          <!-- Glass Card Background -->
-          <rect x="0" y="0" width="175" height="84" rx="10" class="metric-card-bg" />
-          <rect x="0" y="0" width="175" height="84" rx="10" class="metric-card-border" />
-          
-          <!-- Top Row: Index Tag & Mini Icon -->
-          <text x="14" y="20" class="metric-index-tag">[METRIC.04]</text>
-          
-          <!-- Metric Label -->
-          <text x="14" y="34" class="metric-label">MERGED PULL REQS</text>
-          
-          <!-- Metric Large Value -->
-          <text x="14" y="58" class="metric-value" style="fill: var(--accent-success);">312</text>
-          
-          <!-- Progress Bar Track -->
-          <rect x="14" y="68" width="147" height="4" rx="2" class="metric-bar-track" />
-          <rect x="14" y="68" width="131" height="4" rx="2" class="metric-bar-fill" style="fill: var(--accent-success);" />
-        </g>
-      
-    </g>
-  
+  <!-- Column 3: Mobile & Audio DSP -->
+  <rect x="564" y="124" width="250" height="96" rx="8" fill="#1e1814" stroke="#e08e36" stroke-width="0.8" stroke-opacity="0.4" />
+  <circle cx="582" cy="142" r="3" fill="#e08e36" />
+  <text x="592" y="146" class="boho-font-mono" font-size="11" font-weight="700" fill="#d87a5c">MOBILE &amp; DSP ENGINES</text>
+  <text x="582" y="166" class="boho-font-sans" font-size="10.5" fill="#f6efe3" font-weight="500">React Native • Expo • C++ NDK</text>
+  <text x="582" y="184" class="boho-font-sans" font-size="10" fill="#d8b998" opacity="0.85">Offline-first SQLite local persistence,</text>
+  <text x="582" y="199" class="boho-font-sans" font-size="10" fill="#d8b998" opacity="0.85">Oboe audio DSP, 10-band EQs &amp; edge ML</text>
 
-  <!-- 3. Language Telemetry Breakdown -->
-  
-    <g class="languages-telemetry" transform="translate(32, 198)">
-      <!-- Section Tag -->
-      <text x="0" y="-8" class="section-tag">[TELEMETRY.LANGUAGES // STACK PROFILES]</text>
-
-      <!-- Multi-segment Progress Bar -->
-      <g transform="translate(0, 0)">
-        <rect x="0" y="0" width="736" height="8" rx="4" class="lang-bar-track" />
-        
-      <rect 
-        x="0.0" 
-        y="0" 
-        width="312.8" 
-        height="8" 
-        rx="4"
-        fill="#3178c6" 
-        class="lang-bar-segment"
-      />
-    
-      <rect 
-        x="312.8" 
-        y="0" 
-        width="164.9" 
-        height="8" 
-        rx="0"
-        fill="#dea584" 
-        class="lang-bar-segment"
-      />
-    
-      <rect 
-        x="477.7" 
-        y="0" 
-        width="121.4" 
-        height="8" 
-        rx="0"
-        fill="#00ADD8" 
-        class="lang-bar-segment"
-      />
-    
-      <rect 
-        x="599.1" 
-        y="0" 
-        width="87.6" 
-        height="8" 
-        rx="0"
-        fill="#3572A5" 
-        class="lang-bar-segment"
-      />
-    
-      <rect 
-        x="686.7" 
-        y="0" 
-        width="49.3" 
-        height="8" 
-        rx="4"
-        fill="#384d54" 
-        class="lang-bar-segment"
-      />
-    
-      </g>
-
-      <!-- Language Badges -->
-      <g class="language-badges">
-        
-      <g transform="translate(0, 18)">
-        <circle cx="5" cy="5" r="4" fill="#3178c6" />
-        <text x="14" y="8.5" class="lang-pill-text">
-          <tspan class="lang-name">TypeScript</tspan>
-          <tspan class="lang-pct"> 42.5%</tspan>
-        </text>
-      </g>
-    
-      <g transform="translate(133, 18)">
-        <circle cx="5" cy="5" r="4" fill="#dea584" />
-        <text x="14" y="8.5" class="lang-pill-text">
-          <tspan class="lang-name">Rust</tspan>
-          <tspan class="lang-pct"> 22.4%</tspan>
-        </text>
-      </g>
-    
-      <g transform="translate(221, 18)">
-        <circle cx="5" cy="5" r="4" fill="#00ADD8" />
-        <text x="14" y="8.5" class="lang-pill-text">
-          <tspan class="lang-name">Go</tspan>
-          <tspan class="lang-pct"> 16.5%</tspan>
-        </text>
-      </g>
-    
-      <g transform="translate(294, 18)">
-        <circle cx="5" cy="5" r="4" fill="#3572A5" />
-        <text x="14" y="8.5" class="lang-pill-text">
-          <tspan class="lang-name">Python</tspan>
-          <tspan class="lang-pct"> 11.9%</tspan>
-        </text>
-      </g>
-    
-      <g transform="translate(397, 18)">
-        <circle cx="5" cy="5" r="4" fill="#384d54" />
-        <text x="14" y="8.5" class="lang-pill-text">
-          <tspan class="lang-name">Docker</tspan>
-          <tspan class="lang-pct"> 6.7%</tspan>
-        </text>
-      </g>
-    
-      </g>
-    </g>
-  
-
-  <!-- 4. Capability Chips -->
-  
-    <g class="capability-chips-section" transform="translate(32, 260)">
-      <!-- Section Tag -->
-      <text x="0" y="-8" class="section-tag">[CAPABILITIES // CORE SPECIALIZATIONS]</text>
-      <g>
-        
-      <g transform="translate(0, 0)">
-        <rect x="0" y="0" width="101" height="24" rx="6" class="skill-chip-bg" />
-        <rect x="0" y="0" width="101" height="24" rx="6" class="skill-chip-border" />
-        <circle cx="10" cy="12" r="2.5" class="skill-chip-dot" />
-        <text x="18" y="15.5" class="skill-chip-text">TypeScript</text>
-      </g>
-    
-      <g transform="translate(109, 0)">
-        <rect x="0" y="0" width="60" height="24" rx="6" class="skill-chip-bg" />
-        <rect x="0" y="0" width="60" height="24" rx="6" class="skill-chip-border" />
-        <circle cx="10" cy="12" r="2.5" class="skill-chip-dot" />
-        <text x="18" y="15.5" class="skill-chip-text">Rust</text>
-      </g>
-    
-      <g transform="translate(177, 0)">
-        <rect x="0" y="0" width="60" height="24" rx="6" class="skill-chip-bg" />
-        <rect x="0" y="0" width="60" height="24" rx="6" class="skill-chip-border" />
-        <circle cx="10" cy="12" r="2.5" class="skill-chip-dot" />
-        <text x="18" y="15.5" class="skill-chip-text">Go</text>
-      </g>
-    
-      <g transform="translate(245, 0)">
-        <rect x="0" y="0" width="71" height="24" rx="6" class="skill-chip-bg" />
-        <rect x="0" y="0" width="71" height="24" rx="6" class="skill-chip-border" />
-        <circle cx="10" cy="12" r="2.5" class="skill-chip-dot" />
-        <text x="18" y="15.5" class="skill-chip-text">Python</text>
-      </g>
-    
-      <g transform="translate(324, 0)">
-        <rect x="0" y="0" width="71" height="24" rx="6" class="skill-chip-bg" />
-        <rect x="0" y="0" width="71" height="24" rx="6" class="skill-chip-border" />
-        <circle cx="10" cy="12" r="2.5" class="skill-chip-dot" />
-        <text x="18" y="15.5" class="skill-chip-text">Docker</text>
-      </g>
-    
-      <g transform="translate(403, 0)">
-        <rect x="0" y="0" width="101" height="24" rx="6" class="skill-chip-bg" />
-        <rect x="0" y="0" width="101" height="24" rx="6" class="skill-chip-border" />
-        <circle cx="10" cy="12" r="2.5" class="skill-chip-dot" />
-        <text x="18" y="15.5" class="skill-chip-text">Kubernetes</text>
-      </g>
-    
-      <g transform="translate(512, 0)">
-        <rect x="0" y="0" width="78.5" height="24" rx="6" class="skill-chip-bg" />
-        <rect x="0" y="0" width="78.5" height="24" rx="6" class="skill-chip-border" />
-        <circle cx="10" cy="12" r="2.5" class="skill-chip-dot" />
-        <text x="18" y="15.5" class="skill-chip-text">GraphQL</text>
-      </g>
-    
-      </g>
-    </g>
-  
-
-  <!-- 5. Active System Activity Log -->
-  
-    <g class="system-log-section" transform="translate(32, 324)">
-      <!-- Container Box -->
-      <rect x="0" y="0" width="736" height="38" rx="8" class="log-box-bg" />
-      <rect x="0" y="0" width="736" height="38" rx="8" class="log-box-border" />
-      
-      <!-- Terminal Prompt Prefix -->
-      <text x="14" y="23" class="log-prefix">[SYS.LOG] ❯</text>
-      
-      <!-- Log Content -->
-      <text x="96" y="23" class="log-content">
-        <tspan class="log-repo">Cherie05/telemetry-core</tspan>
-        <tspan class="log-dot"> • </tspan>
-        <tspan class="log-desc">feat(engine): optimize telemetry pipeline &amp; reduce svg pa...</tspan>
-      </text>
-
-      <!-- Timestamp Pill (Right aligned) -->
-      <text x="720" y="23" text-anchor="end" class="log-timestamp">2h ago</text>
-    </g>
-  
+  <!-- FOOTER BAR -->
+  <line x1="26" y1="234" x2="814" y2="234" stroke="#6f8b6d" stroke-width="0.8" stroke-opacity="0.25" />
+  <text x="26" y="255" class="boho-font-mono" font-size="9.5" fill="#8c7767">
+    PROVENANCE: MMXXIII – MMXXVI &#160;•&#160; ZERO FLUFF &#160;•&#160; HIGH VELOCITY CRAFTSMANSHIP
+  </text>
+  <text x="814" y="255" text-anchor="end" class="boho-font-mono" font-size="9.5" font-weight="700" fill="#e08e36">
+    AUTHENTIC REPOSITORIES &amp; FORGES
+  </text>
 </svg>
