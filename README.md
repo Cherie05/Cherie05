@@ -162,7 +162,7 @@
 ### 🧭 IV. PRODUCT ARCHITECTURE &amp; SYSTEMS MATRIX
 
 <div align="center">
-  <img src="./assets/dev-telemetry.svg" alt="Arun Vpp — Product Engineering & Systems Matrix" width="100%" />
+  <img src="./assets/systems-matrix.svg" alt="Arun Vpp — Product Engineering &amp; Systems Matrix" width="100%" />
 </div>
 
 <img src="./assets/bohemian-divider.svg" alt="" width="100%" />
