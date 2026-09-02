@@ -4,7 +4,7 @@
   width="840"
   height="280"
   role="img"
-  aria-label="Arun Vpp — Product Engineering & Systems Matrix"
+  aria-label="Arun Vpp — Product Engineering and Systems Matrix"
 >
   <defs>
     <linearGradient id="boho-card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -25,17 +25,10 @@
       .boho-font-sans {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
       }
-      @keyframes pulse-sage {
-        0%, 100% { opacity: 1; r: 4.5; }
-        50% { opacity: 0.4; r: 6.5; }
-      }
-      .beacon-dot {
-        animation: pulse-sage 2.5s infinite ease-in-out;
-      }
     </style>
   </defs>
 
-  <!-- Card Outer Border & Canvas -->
+  <!-- Card Outer Border and Canvas -->
   <rect x="1" y="1" width="838" height="278" rx="14" fill="url(#boho-card-bg)" stroke="#c86446" stroke-width="1.6" stroke-opacity="0.6" />
 
   <!-- Subtle Inner Stitch Rim -->
@@ -44,16 +37,16 @@
   <!-- HEADER BAR -->
   <!-- Status Badge (Top Left) -->
   <rect x="26" y="24" width="232" height="24" rx="12" fill="#2d5438" fill-opacity="0.25" stroke="#6f8b6d" stroke-width="1" />
-  <circle cx="40" cy="36" r="4.5" fill="#6f8b6d" class="beacon-dot" />
+  <circle cx="40" cy="36" r="4.5" fill="#6f8b6d" />
   <circle cx="40" cy="36" r="2.5" fill="#a4c6a1" />
   <text x="52" y="40" class="boho-font-mono" font-size="10" font-weight="700" fill="#a4c6a1" letter-spacing="1">ACTIVE · PRODUCT ENGINEER</text>
 
-  <!-- Profile Handle & Location (Top Right) -->
+  <!-- Profile Handle and Location (Top Right) -->
   <text x="814" y="40" text-anchor="end" class="boho-font-mono" font-size="11" fill="#d8b998">
     github.com/<tspan fill="#f6efe3" font-weight="700">Cherie05</tspan> &#160;•&#160; 29 PUBLIC REPOS
   </text>
 
-  <!-- Title & Primary Role -->
+  <!-- Title and Primary Role -->
   <text x="26" y="78" class="boho-font-title" font-size="20">ARUN VPP</text>
   <text x="142" y="77" class="boho-font-sans" font-size="12" font-weight="600" fill="#e08e36" letter-spacing="0.5">SYSTEMS ARCHITECT &amp; PRODUCT ENGINEER</text>
   <text x="26" y="98" class="boho-font-sans" font-size="11.5" fill="#d8b998" opacity="0.9">
@@ -64,7 +57,7 @@
   <line x1="26" y1="112" x2="814" y2="112" stroke="#c86446" stroke-width="1" stroke-opacity="0.3" />
 
   <!-- THREE DOMAIN COLUMNS -->
-  <!-- Column 1: Websites & SaaS Platforms -->
+  <!-- Column 1: Websites and SaaS Platforms -->
   <rect x="26" y="124" width="250" height="96" rx="8" fill="#1e1814" stroke="#c86446" stroke-width="0.8" stroke-opacity="0.4" />
   <circle cx="44" cy="142" r="3" fill="#c86446" />
   <text x="54" y="146" class="boho-font-mono" font-size="11" font-weight="700" fill="#e08e36">WEBSITES &amp; SAAS</text>
@@ -72,7 +65,7 @@
   <text x="44" y="184" class="boho-font-sans" font-size="10" fill="#d8b998" opacity="0.85">PostgreSQL, Redis caching, real-time</text>
   <text x="44" y="199" class="boho-font-sans" font-size="10" fill="#d8b998" opacity="0.85">Phoenix LiveView websockets &amp; APIs</text>
 
-  <!-- Column 2: Developer Tools & Local AI -->
+  <!-- Column 2: Developer Tools and Local AI -->
   <rect x="295" y="124" width="250" height="96" rx="8" fill="#1e1814" stroke="#6f8b6d" stroke-width="0.8" stroke-opacity="0.4" />
   <circle cx="313" cy="142" r="3" fill="#6f8b6d" />
   <text x="323" y="146" class="boho-font-mono" font-size="11" font-weight="700" fill="#88a885">AI &amp; DEVELOPER TOOLS</text>
@@ -80,7 +73,7 @@
   <text x="313" y="184" class="boho-font-sans" font-size="10" fill="#d8b998" opacity="0.85">Browser WASM neural models, local LLMs,</text>
   <text x="313" y="199" class="boho-font-sans" font-size="10" fill="#d8b998" opacity="0.85">custom editor kernels &amp; Rust renderers</text>
 
-  <!-- Column 3: Mobile & Cross-Platform -->
+  <!-- Column 3: Mobile and Cross-Platform -->
   <rect x="564" y="124" width="250" height="96" rx="8" fill="#1e1814" stroke="#e08e36" stroke-width="0.8" stroke-opacity="0.4" />
   <circle cx="582" cy="142" r="3" fill="#e08e36" />
   <text x="592" y="146" class="boho-font-mono" font-size="11" font-weight="700" fill="#d87a5c">MOBILE &amp; CROSS-PLATFORM</text>
