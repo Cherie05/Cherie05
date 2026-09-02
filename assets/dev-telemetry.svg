@@ -13,17 +13,6 @@
       <stop offset="100%" stop-color="#14100d" />
     </linearGradient>
 
-    <linearGradient id="boho-terracotta" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#d87a5c" />
-      <stop offset="50%" stop-color="#c86446" />
-      <stop offset="100%" stop-color="#a84d32" />
-    </linearGradient>
-
-    <linearGradient id="boho-sage" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#88a885" />
-      <stop offset="100%" stop-color="#6f8b6d" />
-    </linearGradient>
-
     <style>
       .boho-font-title {
         font-family: 'Playfair Display', Georgia, serif;
@@ -86,23 +75,23 @@
   <!-- Column 2: Developer Tools & Local AI -->
   <rect x="295" y="124" width="250" height="96" rx="8" fill="#1e1814" stroke="#6f8b6d" stroke-width="0.8" stroke-opacity="0.4" />
   <circle cx="313" cy="142" r="3" fill="#6f8b6d" />
-  <text x="323" y="146" class="boho-font-mono" font-size="11" font-weight="700" fill="#88a885">TOOLS &amp; LOCAL AI</text>
-  <text x="313" y="166" class="boho-font-sans" font-size="10.5" fill="#f6efe3" font-weight="500">Rust • TypeScript • ONNX • Ollama</text>
-  <text x="313" y="184" class="boho-font-sans" font-size="10" fill="#d8b998" opacity="0.85">Noise-free CPU illumination (interflect),</text>
-  <text x="313" y="199" class="boho-font-sans" font-size="10" fill="#d8b998" opacity="0.85">local neural IDE kernels &amp; visual looms</text>
+  <text x="323" y="146" class="boho-font-mono" font-size="11" font-weight="700" fill="#88a885">AI &amp; DEVELOPER TOOLS</text>
+  <text x="313" y="166" class="boho-font-sans" font-size="10.5" fill="#f6efe3" font-weight="500">PyTorch • ONNX • Ollama • Llama.cpp</text>
+  <text x="313" y="184" class="boho-font-sans" font-size="10" fill="#d8b998" opacity="0.85">Browser WASM neural models, local LLMs,</text>
+  <text x="313" y="199" class="boho-font-sans" font-size="10" fill="#d8b998" opacity="0.85">custom editor kernels &amp; Rust renderers</text>
 
-  <!-- Column 3: Mobile & Audio DSP -->
+  <!-- Column 3: Mobile & Cross-Platform -->
   <rect x="564" y="124" width="250" height="96" rx="8" fill="#1e1814" stroke="#e08e36" stroke-width="0.8" stroke-opacity="0.4" />
   <circle cx="582" cy="142" r="3" fill="#e08e36" />
-  <text x="592" y="146" class="boho-font-mono" font-size="11" font-weight="700" fill="#d87a5c">MOBILE &amp; DSP ENGINES</text>
-  <text x="582" y="166" class="boho-font-sans" font-size="10.5" fill="#f6efe3" font-weight="500">React Native • Expo • C++ NDK</text>
-  <text x="582" y="184" class="boho-font-sans" font-size="10" fill="#d8b998" opacity="0.85">Offline-first SQLite local persistence,</text>
-  <text x="582" y="199" class="boho-font-sans" font-size="10" fill="#d8b998" opacity="0.85">Oboe audio DSP, 10-band EQs &amp; edge ML</text>
+  <text x="592" y="146" class="boho-font-mono" font-size="11" font-weight="700" fill="#d87a5c">MOBILE &amp; CROSS-PLATFORM</text>
+  <text x="582" y="166" class="boho-font-sans" font-size="10.5" fill="#f6efe3" font-weight="500">Flutter • React Native • Expo • C++ NDK</text>
+  <text x="582" y="184" class="boho-font-sans" font-size="10" fill="#d8b998" opacity="0.85">Offline-first SQLite persistence, Dart,</text>
+  <text x="582" y="199" class="boho-font-sans" font-size="10" fill="#d8b998" opacity="0.85">psychoacoustic DSP &amp; mobile neural weights</text>
 
   <!-- FOOTER BAR -->
   <line x1="26" y1="234" x2="814" y2="234" stroke="#6f8b6d" stroke-width="0.8" stroke-opacity="0.25" />
   <text x="26" y="255" class="boho-font-mono" font-size="9.5" fill="#8c7767">
-    PROVENANCE: MMXXIII – MMXXVI &#160;•&#160; ZERO FLUFF &#160;•&#160; HIGH VELOCITY CRAFTSMANSHIP
+    PROVENANCE: MMXXIII – MMXXVI &#160;•&#160; FIRST-PRINCIPLES CRAFT &#160;•&#160; ZERO FLUFF
   </text>
   <text x="814" y="255" text-anchor="end" class="boho-font-mono" font-size="9.5" font-weight="700" fill="#e08e36">
     AUTHENTIC REPOSITORIES &amp; FORGES

@@ -1,13 +1,13 @@
 <div align="center">
 
-<img src="./assets/bohemian-header.svg" alt="Arun Vpp — Bohemian Artisan Atelier Header" width="100%" />
+<img src="./assets/bohemian-header.svg" alt="Arun Vpp — Systems Architect & Product Engineer" width="100%" />
 
 <br />
 
 <p align="center">
-  <a href="https://arunvpp.xyz/"><img src="https://img.shields.io/badge/ATELIER%20PORTFOLIO-arunvpp.xyz-c86446?style=for-the-badge&labelColor=1a1512" alt="Portfolio" /></a>
-  <a href="https://github.com/Cherie05"><img src="https://img.shields.io/badge/NOMADIC%20GITHUB-%40Cherie05-6f8b6d?style=for-the-badge&labelColor=1a1512&logo=github&logoColor=6f8b6d" alt="GitHub" /></a>
-  <a href="https://www.linkedin.com/in/arunvpp05/"><img src="https://img.shields.io/badge/FIELD%20LINKEDIN-arunvpp05-e08e36?style=for-the-badge&labelColor=1a1512&logo=linkedin&logoColor=e08e36" alt="LinkedIn" /></a>
+  <a href="https://arunvpp.xyz/"><img src="https://img.shields.io/badge/PORTFOLIO-arunvpp.xyz-c86446?style=for-the-badge&labelColor=1a1512" alt="Portfolio" /></a>
+  <a href="https://github.com/Cherie05"><img src="https://img.shields.io/badge/GITHUB-%40Cherie05-6f8b6d?style=for-the-badge&labelColor=1a1512&logo=github&logoColor=6f8b6d" alt="GitHub" /></a>
+  <a href="https://www.linkedin.com/in/arunvpp05/"><img src="https://img.shields.io/badge/LINKEDIN-arunvpp05-e08e36?style=for-the-badge&labelColor=1a1512&logo=linkedin&logoColor=e08e36" alt="LinkedIn" /></a>
 </p>
 
 </div>
@@ -16,54 +16,62 @@
 
 <div align="center">
 
-### 🏺 🌾 I. THE ATELIER MANIFESTO &amp; PRODUCT ENGINEERING ROOTS 🌾 🏺
+### 🌿 I. SYSTEMS ARCHITECTURE &amp; PRODUCT ENGINEERING
 
-> *“I'm a Systems Architect, Creative Technologist, and Product Engineer who genuinely loves building things from the ground up. Whether I'm tweaking backend infrastructure for maximum performance or obsessing over the mathematical precision of a frontend interaction, I enjoy getting my hands dirty and pushing the limits of modern software.”*
+> *“I'm a Systems Architect, Creative Technologist, and Product Engineer dedicated to building robust software from first principles. Whether designing distributed backend infrastructure, architecting offline-first mobile apps, or tuning browser-native neural models, I build end-to-end products that combine architectural rigor with fluid user experience.”*
 
 <br />
 
-> *“I architect and engineer across the full product spectrum — high-performance websites, developer tools, scalable SaaS platforms, local AI systems, and offline-first mobile apps. Focused on structural rigor, deep systems craft, and zero fluff.”*
+> *“My technical focus spans full-stack web platforms, developer tools, SaaS architectures, local AI tooling, and native mobile applications — engineered for high performance, sovereign privacy, and long-term maintainability.”*
 
-<sub><b>ARUN VPP</b> &#160;•&#160; SYSTEMS ARCHITECT, CREATIVE TECHNOLOGIST &amp; PRODUCT ENGINEER</sub>
-
-</div>
-
-<img src="./assets/bohemian-divider.svg" alt="" width="100%" />
-
-### 🌿 ☀️ II. THE WORKSHOP &amp; NATURAL ELEMENTS (RAW MATERIALS)
-
-<div align="center">
-
-<p><sub><b>🪵 HARDWOOD &amp; ANVIL (CORE RUNTIMES &amp; SYSTEMS)</b></sub></p>
-<p>
-  <code>Rust</code> &#160;•&#160; <code>Go</code> &#160;•&#160; <code>TypeScript</code> &#160;•&#160; <code>C++</code> &#160;•&#160; <code>Python</code> &#160;•&#160; <code>Node.js</code>
-</p>
-
-<p><sub><b>🌾 THE GLOBAL LOOM &amp; FABRIC (CLOUD &amp; INFRASTRUCTURE)</b></sub></p>
-<p>
-  <code>Linux</code> &#160;•&#160; <code>Docker</code> &#160;•&#160; <code>Kubernetes</code> &#160;•&#160; <code>AWS</code>
-</p>
-
-<p><sub><b>🏺 CLAY &amp; KILN (DATA LAYER &amp; STREAMING)</b></sub></p>
-<p>
-  <code>PostgreSQL</code> &#160;•&#160; <code>Redis</code> &#160;•&#160; <code>GraphQL</code>
-</p>
-
-<p><sub><b>🎨 PIGMENTS, LINOCUT &amp; SHADERS (CREATIVE &amp; FRONTEND)</b></sub></p>
-<p>
-  <code>WebGL</code> &#160;•&#160; <code>Three.js</code> &#160;•&#160; <code>React Native</code>
-</p>
-
-<p><sub><i>To architect and craft at high velocity, AI coding assistants — <b>Claude</b>, <b>Antigravity</b>, and <b>Codex</b> — are wielded as intuitive guild companions.</i></sub></p>
+<sub><b>ARUN VPP</b> &#160;•&#160; SYSTEMS ARCHITECT &amp; PRODUCT ENGINEER</sub>
 
 </div>
 
 <img src="./assets/bohemian-divider.svg" alt="" width="100%" />
 
-### 🌻 ☀️ III. THE EXHIBITION CATALOG — HANDCRAFTED ARTIFACTS ☀️ 🌻
+### 🛠️ II. CORE TECHNICAL ARSENAL &amp; SKILLS
 
 <div align="center">
-<sub>FEATURING PINNED &amp; PUBLIC FORGES FROM <a href="https://github.com/Cherie05">@Cherie05</a> · PROPRIETARY PROJECTS NOTED</sub>
+
+<p><sub><b>⚡ CORE LANGUAGES &amp; RUNTIMES</b></sub></p>
+<p>
+  <code>TypeScript</code> &#160;•&#160; <code>Rust</code> &#160;•&#160; <code>Python</code> &#160;•&#160; <code>Go</code> &#160;•&#160; <code>C++</code> &#160;•&#160; <code>Dart</code> &#160;•&#160; <code>Elixir</code> &#160;•&#160; <code>Node.js</code>
+</p>
+
+<p><sub><b>🧠 AI, MACHINE LEARNING &amp; LOCAL MODELS</b></sub></p>
+<p>
+  <code>PyTorch</code> &#160;•&#160; <code>ONNX Runtime (WASM)</code> &#160;•&#160; <code>Ollama</code> &#160;•&#160; <code>Llama.cpp</code> &#160;•&#160; <code>Gemini Vision AI</code> &#160;•&#160; <code>Claude &amp; Codex Tooling</code>
+</p>
+
+<p><sub><b>📱 MOBILE &amp; CROSS-PLATFORM</b></sub></p>
+<p>
+  <code>Flutter</code> &#160;•&#160; <code>React Native</code> &#160;•&#160; <code>Expo</code> &#160;•&#160; <code>Android NDK (C++)</code> &#160;•&#160; <code>SQLite Local Sync</code>
+</p>
+
+<p><sub><b>☁️ CLOUD, SYSTEMS &amp; INFRASTRUCTURE</b></sub></p>
+<p>
+  <code>Linux</code> &#160;•&#160; <code>Docker</code> &#160;•&#160; <code>Kubernetes</code> &#160;•&#160; <code>AWS</code> &#160;•&#160; <code>CI/CD (GitHub Actions)</code> &#160;•&#160; <code>eBPF</code>
+</p>
+
+<p><sub><b>🏺 DATA LAYER &amp; DISTRIBUTED ENGINES</b></sub></p>
+<p>
+  <code>PostgreSQL</code> &#160;•&#160; <code>Redis</code> &#160;•&#160; <code>GraphQL</code> &#160;•&#160; <code>Prisma</code> &#160;•&#160; <code>Phoenix LiveView WebSockets</code>
+</p>
+
+<p><sub><b>🎨 FRONTEND &amp; CREATIVE TECHNOLOGY</b></sub></p>
+<p>
+  <code>Next.js</code> &#160;•&#160; <code>React</code> &#160;•&#160; <code>WebGL</code> &#160;•&#160; <code>Three.js</code> &#160;•&#160; <code>Tailwind CSS</code> &#160;•&#160; <code>State Machines</code>
+</p>
+
+</div>
+
+<img src="./assets/bohemian-divider.svg" alt="" width="100%" />
+
+### 🚀 III. FEATURED PROJECTS &amp; CODEBASES
+
+<div align="center">
+<sub>PUBLIC OPEN-SOURCE REPOSITORIES &amp; PROPRIETARY SYSTEMS FROM <a href="https://github.com/Cherie05">@Cherie05</a></sub>
 </div>
 
 <br />
@@ -108,7 +116,7 @@
       <p><i>A resilient authenticated workspace streaming local inference tokens from llama.cpp directly to browser sockets with microsecond concurrency.</i></p>
     </td>
   </tr>
-  <!-- ROW 4: PRIVATE & PROPRIETARY FORGES (NO BROKEN LINKS) -->
+  <!-- ROW 4: PROPRIETARY & ENTERPRISE SYSTEMS (NO DEAD LINKS) -->
   <tr>
     <td width="50%" valign="top">
       <h3>🏺 LOT 07 · Wizzleflow</h3>
@@ -121,7 +129,7 @@
       <p><i>A sovereign, self-hosted web forge leveraging local LLMs via Ollama to autonomously shape, build, and iterate full-stack web applications.</i></p>
     </td>
   </tr>
-  <!-- ROW 5: PRIVATE & PROPRIETARY FORGES (NO BROKEN LINKS) -->
+  <!-- ROW 5: PROPRIETARY & ENTERPRISE SYSTEMS (NO DEAD LINKS) -->
   <tr>
     <td width="50%" valign="top">
       <h3>🏺 LOT 09 · agent-ai</h3>
@@ -134,7 +142,7 @@
       <p><i>A zero-leakage client-side optical character recognition pipeline executing PP-OCRv5 neural models purely in the local browser memory space.</i></p>
     </td>
   </tr>
-  <!-- ROW 6: PRIVATE & PROPRIETARY FORGES (NO BROKEN LINKS) -->
+  <!-- ROW 6: PROPRIETARY & ENTERPRISE SYSTEMS (NO DEAD LINKS) -->
   <tr>
     <td width="50%" valign="top">
       <h3>🏺 LOT 11 · BarkDSP</h3>
@@ -151,7 +159,7 @@
 
 <img src="./assets/bohemian-divider.svg" alt="" width="100%" />
 
-### 🌊 🧭 IV. PRODUCT ENGINEERING &amp; SYSTEMS ARCHITECTURE
+### 🧭 IV. PRODUCT ARCHITECTURE &amp; SYSTEMS MATRIX
 
 <div align="center">
   <img src="./assets/dev-telemetry.svg" alt="Arun Vpp — Product Engineering & Systems Matrix" width="100%" />
@@ -165,7 +173,7 @@
 
 <br />
 
-<sub><b>ARTISTIC FREEDOM · EARTHY CHARM · SOULFUL ARCHITECTURE</b></sub>  
-<sub>Handcrafted with wanderlust and organic care &#160;•&#160; <a href="https://github.com/Cherie05">@Cherie05</a> &#160;•&#160; EST. MMXXVI</sub>
+<sub><b>SYSTEMS ARCHITECTURE · PRODUCT ENGINEERING · MODERN CRAFTSMANSHIP</b></sub>  
+<sub>Handcrafted with precision and care &#160;•&#160; <a href="https://github.com/Cherie05">@Cherie05</a> &#160;•&#160; MMXXVI</sub>
 
 </div>
