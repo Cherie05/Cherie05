@@ -68,63 +68,102 @@
 
 <img src="./assets/bohemian-divider.svg" alt="" width="100%" />
 
-### 🧭 III. PRODUCT ARCHITECTURE &amp; SYSTEMS MATRIX
+### 🚀 III. FEATURED PROJECTS &amp; CODEBASES
 
 <div align="center">
-  <img src="./assets/dev-telemetry.svg" alt="Arun Vpp — Product Engineering & Systems Matrix" width="100%" />
-</div>
-
-<img src="./assets/bohemian-divider.svg" alt="" width="100%" />
-
-### 🚀 IV. FEATURED SYSTEMS &amp; APPLICATIONS
-
-<div align="center">
-<sub>FLAGSHIP PLATFORMS, DEVELOPER TOOLS &amp; SOVEREIGN AI SYSTEMS</sub>
+<sub>OPEN-SOURCE REPOSITORIES &amp; PROPRIETARY SYSTEMS FROM <a href="https://github.com/Cherie05">@Cherie05</a></sub>
 </div>
 
 <br />
 
 <table>
-  <!-- ROW 1: FLAGSHIP PLATFORMS -->
+  <!-- ROW 1: PINNED PUBLIC REPOSITORIES -->
   <tr>
     <td width="50%" valign="top">
-      <h3>🏺 <a href="https://wizzleflow.xyz">Wizzleflow</a></h3>
-      <p><sub><b>TYPE</b> PRODUCTION WEB APP &#160;•&#160; <b>LIVE</b> <a href="https://wizzleflow.xyz">wizzleflow.xyz</a> &#160;•&#160; <b>STACK</b> TypeScript / Next.js</sub></p>
-      <p><i>An autonomous, node-based visual workflow loom weaving complex LLM interactions into accessible generative tooling for creators.</i></p>
+      <h3>🏺 LOT 01 · <a href="https://github.com/Cherie05/interflect">interflect</a> 📌</h3>
+      <p><sub><b>STATUS</b> PUBLIC REPOSITORY &#160;•&#160; <b>MEDIUM</b> Rust &#160;•&#160; <b>ORIGIN</b> Deterministic Graphics</sub></p>
+      <p><i>A renderer that doesn't sample. It solves. Noise-free CPU global illumination — no Monte Carlo stochastic noise, no AI denoiser, no GPU dependency.</i></p>
     </td>
     <td width="50%" valign="top">
-      <h3>🏺 <a href="https://github.com/Cherie05/reynox">reynox</a></h3>
-      <p><sub><b>TYPE</b> REAL-TIME PLATFORM &#160;•&#160; <b>STACK</b> Elixir / Phoenix LiveView &#160;•&#160; <b>CORE</b> llama.cpp</sub></p>
+      <h3>🏺 LOT 02 · <a href="https://github.com/Cherie05/nirvaha-ai">nirvaha-ai</a> 📌</h3>
+      <p><sub><b>STATUS</b> PUBLIC REPOSITORY &#160;•&#160; <b>MEDIUM</b> TypeScript &#160;•&#160; <b>ORIGIN</b> Circular Recycling</sub></p>
+      <p><i>An AI-powered plastic waste classification &amp; neighborhood B2B logistics aggregation platform engineered for circular community recycling.</i></p>
+    </td>
+  </tr>
+  <!-- ROW 2: PINNED PUBLIC REPOSITORIES -->
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🏺 LOT 03 · <a href="https://github.com/Cherie05/The-Vespers">The-Vespers</a> 📌</h3>
+      <p><sub><b>STATUS</b> PUBLIC REPOSITORY &#160;•&#160; <b>MEDIUM</b> Rust / C++ / eBPF &#160;•&#160; <b>ORIGIN</b> Google Hackathon (Track 2)</sub></p>
+      <p><i>Federated environmental forensic &amp; transboundary smoke plume dispersion platform powered by Gemini Vision AI, Gaussian physics, and NASA FIRMS satellite telemetry.</i></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🏺 LOT 04 · <a href="https://github.com/Cherie05/flowchartmaker">flowchartmaker</a> 📌</h3>
+      <p><sub><b>STATUS</b> PUBLIC REPOSITORY &#160;•&#160; <b>MEDIUM</b> TypeScript &#160;•&#160; <b>ORIGIN</b> OpenAI Build Week</sub></p>
+      <p><i>An intuitive, local-first flowchart editor built for lightning-fast architecture diagrams, powered by OpenAI structured outputs.</i></p>
+    </td>
+  </tr>
+  <!-- ROW 3: PINNED PUBLIC + FEATURED PUBLIC -->
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🏺 LOT 05 · <a href="https://github.com/Cherie05/blunote">blunote</a> 📌</h3>
+      <p><sub><b>STATUS</b> PUBLIC REPOSITORY &#160;•&#160; <b>MEDIUM</b> TypeScript / Expo &#160;•&#160; <b>ORIGIN</b> Private Offline-First</sub></p>
+      <p><i>An offline-first personal hydration tracker built with Expo and SQLite. Zero accounts, zero external servers, private and sovereign by design.</i></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🏺 LOT 06 · <a href="https://github.com/Cherie05/reynox">reynox</a></h3>
+      <p><sub><b>STATUS</b> PUBLIC REPOSITORY &#160;•&#160; <b>MEDIUM</b> Elixir / Phoenix LiveView &#160;•&#160; <b>ORIGIN</b> Distributed Real-Time</sub></p>
       <p><i>A resilient authenticated workspace streaming local inference tokens from llama.cpp directly to browser sockets with microsecond concurrency.</i></p>
     </td>
   </tr>
-  <!-- ROW 2: LOCAL AI & DEVELOPER TOOLING -->
+  <!-- ROW 4: PROPRIETARY & ENTERPRISE SYSTEMS (NO DEAD LINKS) -->
   <tr>
     <td width="50%" valign="top">
-      <h3>🏺 hateble</h3>
-      <p><sub><b>TYPE</b> SOVEREIGN FORGE &#160;•&#160; <b>STACK</b> React / Node.js / Prisma &#160;•&#160; <b>ENGINE</b> Ollama</sub></p>
-      <p><i>A self-hosted web forge leveraging local LLMs via Ollama to autonomously shape, scaffold, and iterate full-stack web applications.</i></p>
+      <h3>🏺 LOT 07 · Wizzleflow</h3>
+      <p><sub><b>STATUS</b> PRIVATE REPOSITORY &#160;•&#160; <b>LIVE APP</b> <a href="https://wizzleflow.xyz">wizzleflow.xyz</a> &#160;•&#160; <b>MEDIUM</b> TypeScript / Next.js</sub></p>
+      <p><i>An autonomous, node-based visual workflow loom weaving complex LLM interactions into accessible generative tooling for creators.</i></p>
     </td>
     <td width="50%" valign="top">
-      <h3>🏺 agent-ai</h3>
-      <p><sub><b>TYPE</b> DEVELOPER TOOL &#160;•&#160; <b>STACK</b> TypeScript / Electron &#160;•&#160; <b>BASE</b> VS Code Fork</sub></p>
-      <p><i>A heavily modified editor kernel integrating local neural weights into the IDE core to autonomously comprehend codebases and mend compiler defects.</i></p>
+      <h3>🏺 LOT 08 · hateble</h3>
+      <p><sub><b>STATUS</b> PRIVATE REPOSITORY &#160;•&#160; <b>MEDIUM</b> React / Node.js / Prisma &#160;•&#160; <b>ORIGIN</b> Local Lovable Lite</sub></p>
+      <p><i>A sovereign, self-hosted web forge leveraging local LLMs via Ollama to autonomously shape, build, and iterate full-stack web applications.</i></p>
     </td>
   </tr>
-  <!-- ROW 3: CLIENT-SIDE AI & MOBILE ENGINES -->
+  <!-- ROW 5: PROPRIETARY & ENTERPRISE SYSTEMS (NO DEAD LINKS) -->
   <tr>
     <td width="50%" valign="top">
-      <h3>🏺 Semantic Doc OCR</h3>
-      <p><sub><b>TYPE</b> PRIVACY-FIRST VISION &#160;•&#160; <b>STACK</b> React / Vite / ONNX &#160;•&#160; <b>RUNTIME</b> WebAssembly</sub></p>
-      <p><i>A zero-leakage client-side optical character recognition pipeline executing PP-OCRv5 neural models purely in local browser memory space.</i></p>
+      <h3>🏺 LOT 09 · agent-ai</h3>
+      <p><sub><b>STATUS</b> PRIVATE REPOSITORY &#160;•&#160; <b>MEDIUM</b> TypeScript / Electron &#160;•&#160; <b>ORIGIN</b> Custom VS Code Fork</sub></p>
+      <p><i>A heavily modified editor kernel integrating local neural weights into the IDE core to autonomously comprehend codebases and mend compiler defects.</i></p>
     </td>
     <td width="50%" valign="top">
-      <h3>🏺 BarkDSP</h3>
-      <p><sub><b>TYPE</b> NATIVE AUDIO ENGINE &#160;•&#160; <b>STACK</b> Kotlin / Compose / C++ &#160;•&#160; <b>AUDIO</b> NDK / Oboe</sub></p>
-      <p><i>A low-latency psychoacoustic digital signal processing engine for Android built with native C++ (NDK/Oboe), 10-band parametric EQs, and driver protection.</i></p>
+      <h3>🏺 LOT 10 · Semantic Doc OCR</h3>
+      <p><sub><b>STATUS</b> PRIVATE REPOSITORY &#160;•&#160; <b>MEDIUM</b> React / Vite / ONNX &#160;•&#160; <b>ORIGIN</b> Privacy-First Vision</sub></p>
+      <p><i>A zero-leakage client-side optical character recognition pipeline executing PP-OCRv5 neural models purely in the local browser memory space.</i></p>
+    </td>
+  </tr>
+  <!-- ROW 6: PROPRIETARY & ENTERPRISE SYSTEMS (NO DEAD LINKS) -->
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🏺 LOT 11 · BarkDSP</h3>
+      <p><sub><b>STATUS</b> PRIVATE REPOSITORY &#160;•&#160; <b>MEDIUM</b> Kotlin / Jetpack Compose / C++ &#160;•&#160; <b>ORIGIN</b> Native Audio Engine</sub></p>
+      <p><i>A psychoacoustic digital signal processing engine for Android built with native C++ (NDK/Oboe), 10-band parametric EQs, and hardware driver protection.</i></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🏺 LOT 12 · PocketAI</h3>
+      <p><sub><b>STATUS</b> PRIVATE REPOSITORY &#160;•&#160; <b>MEDIUM</b> Python / Android NDK &#160;•&#160; <b>ORIGIN</b> Edge Machine Learning</sub></p>
+      <p><i>An offline-first framework engineered to quantize, run, and fine-tune large conversational weights directly on bare-metal mobile hardware.</i></p>
     </td>
   </tr>
 </table>
+
+<img src="./assets/bohemian-divider.svg" alt="" width="100%" />
+
+### 🧭 IV. PRODUCT ARCHITECTURE &amp; SYSTEMS MATRIX
+
+<div align="center">
+  <img src="./assets/dev-telemetry.svg" alt="Arun Vpp — Product Engineering & Systems Matrix" width="100%" />
+</div>
 
 <img src="./assets/bohemian-divider.svg" alt="" width="100%" />
 
@@ -136,9 +175,5 @@
 
 <sub><b>SYSTEMS ARCHITECTURE · PRODUCT ENGINEERING · MODERN CRAFTSMANSHIP</b></sub>  
 <sub>Handcrafted with precision and care &#160;•&#160; <a href="https://github.com/Cherie05">@Cherie05</a> &#160;•&#160; MMXXVI</sub>
-
-<br /><br />
-
-<sub>👇 <i>Explore active open-source repositories &amp; experiments pinned directly below</i> 👇</sub>
 
 </div>
