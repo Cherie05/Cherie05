@@ -1,0 +1,42 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 130 130"
+  width="130"
+  height="130"
+  role="img"
+  aria-label="Bohemian Artisanal Linocut Seal"
+>
+  <!-- Background Clay Disc with Raw Edge -->
+  <circle cx="65" cy="65" r="60" fill="#1a1512" />
+  
+  <!-- Radiating linocut wavy rays -->
+  <path d="M 109.0 65.0 Q 115.5 72.1 123.0 65.0" fill="none" stroke="#c86446" stroke-width="3" stroke-linecap="round" /><path d="M 103.1 87.0 Q 105.2 96.4 115.2 94.0" fill="none" stroke="#c86446" stroke-width="3" stroke-linecap="round" /><path d="M 87.0 103.1 Q 84.1 112.3 94.0 115.2" fill="none" stroke="#c86446" stroke-width="3" stroke-linecap="round" /><path d="M 65.0 109.0 Q 57.9 115.5 65.0 123.0" fill="none" stroke="#c86446" stroke-width="3" stroke-linecap="round" /><path d="M 43.0 103.1 Q 33.6 105.2 36.0 115.2" fill="none" stroke="#c86446" stroke-width="3" stroke-linecap="round" /><path d="M 26.9 87.0 Q 17.7 84.1 14.8 94.0" fill="none" stroke="#c86446" stroke-width="3" stroke-linecap="round" /><path d="M 21.0 65.0 Q 14.5 57.9 7.0 65.0" fill="none" stroke="#c86446" stroke-width="3" stroke-linecap="round" /><path d="M 26.9 43.0 Q 24.8 33.6 14.8 36.0" fill="none" stroke="#c86446" stroke-width="3" stroke-linecap="round" /><path d="M 43.0 26.9 Q 45.9 17.7 36.0 14.8" fill="none" stroke="#c86446" stroke-width="3" stroke-linecap="round" /><path d="M 65.0 21.0 Q 72.1 14.5 65.0 7.0" fill="none" stroke="#c86446" stroke-width="3" stroke-linecap="round" /><path d="M 87.0 26.9 Q 96.4 24.8 94.0 14.8" fill="none" stroke="#c86446" stroke-width="3" stroke-linecap="round" /><path d="M 103.1 43.0 Q 112.3 45.9 115.2 36.0" fill="none" stroke="#c86446" stroke-width="3" stroke-linecap="round" />
+
+  <!-- Terracotta Clay Ring -->
+  <circle cx="65" cy="65" r="42" fill="#3d2e24" stroke="#c86446" stroke-width="2" />
+  <circle cx="65" cy="65" r="36" fill="#c86446" stroke="#e08e36" stroke-width="1.2" stroke-dasharray="3,2" />
+
+  <!-- Monogram in Artisan Serif -->
+  <text
+    x="65"
+    y="72"
+    text-anchor="middle"
+    font-family="'Playfair Display', 'Georgia', serif"
+    font-size="21"
+    font-weight="800"
+    letter-spacing="2"
+    fill="#f6efe3"
+  >AV</text>
+
+  <!-- Artisanal Subtext -->
+  <text
+    x="65"
+    y="87"
+    text-anchor="middle"
+    font-family="'Playfair Display', 'Georgia', serif"
+    font-size="6.5"
+    font-weight="700"
+    letter-spacing="1.5"
+    fill="#e08e36"
+  >ATELIER</text>
+</svg>

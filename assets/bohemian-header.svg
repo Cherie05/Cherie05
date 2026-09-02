@@ -1,0 +1,195 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 1000 340"
+  width="1000"
+  height="340"
+  role="img"
+  aria-label="ARUN VPP — Bohemian Artisan Header"
+>
+  <defs>
+    <!-- Warm Earthy Backdrop Gradient -->
+    <radialGradient id="boho-bg" cx="50%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#2a201a" />
+      <stop offset="60%" stop-color="#241d18" />
+      <stop offset="100%" stop-color="#1a1512" />
+    </radialGradient>
+
+    <!-- Warm Linen Paper Mat -->
+    <linearGradient id="boho-paper" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#faf4eb" />
+      <stop offset="100%" stop-color="#ede3d1" />
+    </linearGradient>
+
+    <!-- Terracotta Arch Gradient -->
+    <linearGradient id="boho-terracotta" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c86446" />
+      <stop offset="100%" stop-color="#9e432b" />
+    </linearGradient>
+
+    <style>
+      .boho-flair {
+        font-family: 'Playfair Display', 'Baskerville', 'Georgia', serif;
+      }
+      .boho-title {
+        font-size: 44px;
+        font-weight: 800;
+        letter-spacing: 8px;
+      }
+      .boho-overline {
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 4px;
+      }
+      .boho-subtitle {
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 3.5px;
+      }
+      .boho-quote {
+        font-size: 12px;
+        font-style: italic;
+        letter-spacing: 1px;
+      }
+      .boho-capsule {
+        font-size: 9px;
+        font-weight: 700;
+        letter-spacing: 2.8px;
+      }
+    </style>
+  </defs>
+
+  <!-- Deep Earthy Linen Base -->
+  <rect x="0" y="0" width="1000" height="340" fill="#1a1512" />
+  <rect x="0" y="0" width="1000" height="340" fill="url(#boho-bg)" />
+
+  <!-- Artisan Inset Paper Mat Frame with Hand-Stitched Border -->
+  <rect x="14" y="14" width="972" height="312" rx="8" fill="none" stroke="#c29472" stroke-width="1.5" stroke-dasharray="8,5" opacity="0.6" />
+  <rect x="22" y="22" width="956" height="296" rx="6" fill="none" stroke="#c86446" stroke-width="1" opacity="0.35" />
+
+  <!-- LEFT MOTIF: Overlapping Terracotta & Sage Arches (Mid-century Bohemian Minimalism) -->
+  <g class="boho-left-arches">
+    <!-- Outer Sage Green Arch -->
+    <path d="M 60 300 L 60 180 A 55 55 0 0 1 170 180 L 170 300 Z" fill="#6f8b6d" opacity="0.5" />
+    <!-- Overlapping Terracotta Arch -->
+    <path d="M 100 300 L 100 140 A 50 50 0 0 1 200 140 L 200 300 Z" fill="url(#boho-terracotta)" opacity="0.65" />
+    <!-- Small Clay Pillar -->
+    <path d="M 140 300 L 140 210 A 35 35 0 0 1 210 210 L 210 300 Z" fill="#d69e38" opacity="0.5" />
+    <!-- Rising Sun -->
+    <g class="boho-sun"><circle cx="145" cy="80" r="24" fill="#e08e36" /><circle cx="145" cy="80" r="12" fill="#9e432b" opacity="0.45" /><path d="M 175.0 80.0 Q 186.7 85.0 199.0 80.0" fill="none" stroke="#e08e36" stroke-width="3" stroke-linecap="round" /><path d="M 171.0 95.0 Q 175.4 102.8 184.8 103.0" fill="none" stroke="#e08e36" stroke-width="3" stroke-linecap="round" /><path d="M 160.0 106.0 Q 161.5 118.6 172.0 126.8" fill="none" stroke="#e08e36" stroke-width="3" stroke-linecap="round" /><path d="M 145.0 110.0 Q 140.5 117.7 145.0 126.0" fill="none" stroke="#e08e36" stroke-width="3" stroke-linecap="round" /><path d="M 130.0 106.0 Q 119.8 113.6 118.0 126.8" fill="none" stroke="#e08e36" stroke-width="3" stroke-linecap="round" /><path d="M 119.0 95.0 Q 110.1 94.9 105.2 103.0" fill="none" stroke="#e08e36" stroke-width="3" stroke-linecap="round" /><path d="M 115.0 80.0 Q 103.3 75.0 91.0 80.0" fill="none" stroke="#e08e36" stroke-width="3" stroke-linecap="round" /><path d="M 119.0 65.0 Q 114.6 57.2 105.2 57.0" fill="none" stroke="#e08e36" stroke-width="3" stroke-linecap="round" /><path d="M 130.0 54.0 Q 128.5 41.4 118.0 33.2" fill="none" stroke="#e08e36" stroke-width="3" stroke-linecap="round" /><path d="M 145.0 50.0 Q 149.5 42.3 145.0 34.0" fill="none" stroke="#e08e36" stroke-width="3" stroke-linecap="round" /><path d="M 160.0 54.0 Q 170.2 46.4 172.0 33.2" fill="none" stroke="#e08e36" stroke-width="3" stroke-linecap="round" /><path d="M 171.0 65.0 Q 179.9 65.1 184.8 57.0" fill="none" stroke="#e08e36" stroke-width="3" stroke-linecap="round" /></g>
+    <!-- Olive plant silhouette (Left) -->
+    
+    <g class="boho-botanical">
+      <!-- Main curving stem -->
+      <path d="M 120 250 Q 90 180, 140 110 T 230 70" fill="none" stroke="#2d5438" stroke-width="4.5" stroke-linecap="round" />
+      
+      <!-- Leaf cutouts along stem (Matisse inspired organic silhouettes) -->
+      <!-- Leaf 1 (Left low) -->
+      <path d="M 110 215 C 65 205, 50 235, 75 245 C 95 255, 108 235, 110 215 Z" fill="#2d5438" />
+      
+      <!-- Leaf 2 (Right low) -->
+      <path d="M 120 195 C 165 175, 185 205, 165 225 C 145 240, 128 215, 120 195 Z" fill="#2d5438" />
+      
+      <!-- Leaf 3 (Left mid) -->
+      <path d="M 112 155 C 60 140, 40 175, 70 190 C 92 200, 110 175, 112 155 Z" fill="#2d5438" />
+      
+      <!-- Leaf 4 (Right mid) -->
+      <path d="M 130 140 C 185 120, 205 155, 180 175 C 155 190, 135 160, 130 140 Z" fill="#2d5438" />
+      
+      <!-- Leaf 5 (Left high) -->
+      <path d="M 125 110 C 80 80, 55 105, 80 125 C 100 140, 120 125, 125 110 Z" fill="#2d5438" />
+      
+      <!-- Leaf 6 (Tip frond) -->
+      <path d="M 165 90 C 210 45, 245 75, 215 100 C 190 115, 170 105, 165 90 Z" fill="#2d5438" />
+      
+      <!-- Crown leaf -->
+      <path d="M 215 75 C 250 50, 265 70, 240 85 Z" fill="#2d5438" />
+    </g>
+  
+  </g>
+
+  <!-- RIGHT MOTIF: Ceramic Vase & Matisse Botanical Cutout -->
+  <g class="boho-right-ceramics">
+    <!-- Warm Paper Backing Plate behind Vase -->
+    <rect x="790" y="50" width="160" height="235" rx="8" fill="#140f0c" stroke="#c29472" stroke-width="1" opacity="0.8" />
+    <!-- Terracotta Arch behind Vase -->
+    <path d="M 810 280 L 810 110 A 60 60 0 0 1 930 110 L 930 280 Z" fill="#c86446" opacity="0.25" />
+    <!-- Botanical Branch spreading from vase -->
+    
+    <g class="boho-botanical">
+      <!-- Main curving stem -->
+      <path d="M 870 180 Q 840 110, 890 40 T 980 0" fill="none" stroke="#c29472" stroke-width="4.5" stroke-linecap="round" />
+      
+      <!-- Leaf cutouts along stem (Matisse inspired organic silhouettes) -->
+      <!-- Leaf 1 (Left low) -->
+      <path d="M 860 145 C 815 135, 800 165, 825 175 C 845 185, 858 165, 860 145 Z" fill="#c29472" />
+      
+      <!-- Leaf 2 (Right low) -->
+      <path d="M 870 125 C 915 105, 935 135, 915 155 C 895 170, 878 145, 870 125 Z" fill="#c29472" />
+      
+      <!-- Leaf 3 (Left mid) -->
+      <path d="M 862 85 C 810 70, 790 105, 820 120 C 842 130, 860 105, 862 85 Z" fill="#c29472" />
+      
+      <!-- Leaf 4 (Right mid) -->
+      <path d="M 880 70 C 935 50, 955 85, 930 105 C 905 120, 885 90, 880 70 Z" fill="#c29472" />
+      
+      <!-- Leaf 5 (Left high) -->
+      <path d="M 875 40 C 830 10, 805 35, 830 55 C 850 70, 870 55, 875 40 Z" fill="#c29472" />
+      
+      <!-- Leaf 6 (Tip frond) -->
+      <path d="M 915 20 C 960 -25, 995 5, 965 30 C 940 45, 920 35, 915 20 Z" fill="#c29472" />
+      
+      <!-- Crown leaf -->
+      <path d="M 965 5 C 1000 -20, 1015 0, 990 15 Z" fill="#c29472" />
+    </g>
+  
+    <!-- Ceramic Amphora Vase -->
+    
+    <g class="boho-vase" transform="translate(870, 240)">
+      <!-- Rim -->
+      <ellipse cx="0" cy="-62" rx="14" ry="4" fill="#3d2e24" stroke="#c86446" stroke-width="1.5" />
+      <!-- Neck -->
+      <path d="M -12 -62 L -9 -45 Q -28 -20 -30 15 Q -32 50 0 54 Q 32 50 30 15 Q 28 -20 9 -45 L 12 -62 Z" fill="#3d2e24" stroke="#c86446" stroke-width="1.5" />
+      <!-- Base highlight -->
+      <ellipse cx="0" cy="52" rx="16" ry="4" fill="#9e432b" opacity="0.6" />
+      <!-- Subtle pottery line glaze detail -->
+      <path d="M -22 10 Q 0 16 22 10" fill="none" stroke="#f6efe3" stroke-width="1" opacity="0.3" />
+      <path d="M -26 25 Q 0 32 26 25" fill="none" stroke="#f6efe3" stroke-width="1" opacity="0.3" />
+    </g>
+  
+  </g>
+
+  <!-- CENTER ARTISANAL TYPOGRAPHY & INSCRIPTIONS -->
+  <!-- Top Overline Emblem -->
+  <text x="495" y="102" text-anchor="middle" class="boho-flair boho-overline" fill="#e08e36">
+    🏺 — GALERIE BOHÈME · HANDCRAFTED CODECRAFT — 🌿
+  </text>
+
+  <!-- Main Name: Handcrafted Editorial Serif -->
+  <text x="495" y="156" text-anchor="middle" class="boho-flair boho-title" fill="#f6efe3">
+    ARUN VPP
+  </text>
+
+  <!-- Artisanal Terracotta & Sage Accent Line with Clay Beads -->
+  <line x1="310" y1="176" x2="680" y2="176" stroke="#c86446" stroke-width="1.4" opacity="0.8" />
+  <circle cx="495" cy="176" r="5" fill="#e08e36" />
+  <circle cx="445" cy="176" r="3" fill="#6f8b6d" />
+  <circle cx="545" cy="176" r="3" fill="#6f8b6d" />
+  <circle cx="385" cy="176" r="2.5" fill="#c29472" />
+  <circle cx="605" cy="176" r="2.5" fill="#c29472" />
+
+  <!-- Subtitle: Systems Architect & Creative Technologist -->
+  <text x="495" y="210" text-anchor="middle" class="boho-flair boho-subtitle" fill="#d69e38">
+    SYSTEMS ARCHITECT · CREATIVE TECHNOLOGIST
+  </text>
+
+  <!-- Philosophical / Soulful Quote -->
+  <text x="495" y="240" text-anchor="middle" class="boho-flair boho-quote" fill="#f6efe3" opacity="0.9">
+    “Artistic freedom, earthy charm, and the soul of handcrafted software”
+  </text>
+
+  <!-- Bottom Nomadic Tag -->
+  <rect x="330" y="265" width="330" height="26" rx="13" fill="#3d2e24" stroke="#c86446" stroke-width="1" opacity="0.9" />
+  <text x="495" y="282" text-anchor="middle" class="boho-flair boho-capsule" fill="#f6efe3">
+    WANDERLUST &amp; SYSTEMS  •  HACKER HOUSE GOA  •  2026
+  </text>
+</svg>
